@@ -21,7 +21,7 @@ RUN \
 		php-pecl-xdebug \
 		php-pecl-zip \
 		php-pecl-amqp --nogpgcheck \
-		mariadb mariadb-server mariadb-client nginx pwgen python-setuptools curl git tar \
+		mariadb mariadb-server mariadb-client nginx pwgen python-setuptools curl git tar
 
 RUN curl 'https://setup.ius.io/' -o setup-ius.sh
 RUN bash setup-ius.sh
